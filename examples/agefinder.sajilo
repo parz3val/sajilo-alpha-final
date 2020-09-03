@@ -1,0 +1,33 @@
+// This is a simple program written in sajilo langauge
+// It calculates age and gives funny feedbacks
+
+
+s = anka(padha("Tapai janmeko saal: \n"));
+//lambai = anka(s);
+	
+a = anka(padha("Aahile ko barsa: \n"));
+//chaudai = anka(a);
+
+vidhi umerkhoj(suru, aahile) {
+    umr = ( aahile - suru);
+	umer = anka(umr);
+    pathau umr;
+}
+
+lekha "umerkhoj = ", umerkhoj(s, a), "\n";
+
+umer = anka(umerkhoj(s,a));
+
+yedi umer < 20 {
+       lekha "Padhney lekhney umer cha hai \n";    }
+	yedi umer > 100{
+	
+	lekha "Chiranjiwi hunudo raicha ta gathey \n";
+	}
+	
+   navaye {
+       lekha "Jiwan Bachney samaye yei ho, khusi sath bitaunu hola \n";
+    }
+	
+
+
