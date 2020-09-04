@@ -203,4 +203,9 @@ jaba ans == "y" {
 ## Known Issues and Bugs
 :o: Unicode Transformations and encodings don't work.
 
+## Contribution
+Feel free to use and fork the repo as you wish. If you would like to participate in the project and translate the language keywords, error messages and programming style for your language or help me improve the code (there is also a private version of parsers being implemented in C and LLVM for code execution): feel free to open a PR request and I will add a branch for your language. All the code is subject to change however.
 
+
+## References
+>> Check docs/References.csv for complete list of References, tutorials, and books.
