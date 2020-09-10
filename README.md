@@ -49,7 +49,9 @@ Usage : ```python sajilo.py 'name of file'```
 :white_check_mark: Lexing Error fixed for the conjoined syntax.
 
 :white_check_mark: Solve the lexing error with the joined key instances.
+
 :white_check_mark: Solved index out of range error in yacc file.
+
 >> For example :
 ```lekha "hello World"  is parsed correctly but,
 lekhasss "Hello World" is also parsed as right syntax
