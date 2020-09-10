@@ -1,6 +1,6 @@
 # Sajilo Programming Language Final Alpha Version :smiley:
 
-This is the final alpha version of Sajilo 
+This is the final alpha version of Sajilo. 
 
 #### ‘Sajilo Programming Language’ is a basic programming language compiler written in Python and PLY. It offers Romanized Nepali syntax for the ease of use to the Nepali speakers.  
 
@@ -61,7 +61,7 @@ This issue is solved now!
 ## User Guide and Syntax
 
 
-### 1. A Simple Hello World Program
+#### A Simple Hello World Program
 ``` lekha "Hello World" ;``` 
 
 >> The more sophisticated way to do this would be with user defined functions.
@@ -69,9 +69,9 @@ This issue is solved now!
 ```
 
 // This program takes input from user and returns message
-//Functions are declared with keyword vidhi
+// Functions are declared with keyword vidhi
 // Functions don't have side affects, meaning they don't change the supplied value.
-// they can be called with/without arguments
+// They can be called with/without arguments
 
 vidhi namaste(naam) {
     lekha "Namaste, ", naam, "\n";
@@ -83,13 +83,14 @@ namaste(naam);
 ```
 1. Statements are ended in semicolon.
 
-### 2. Variables
+#### Variables
 Sajilo has dynamic types for the ease of use. Meaning you can define variables by assigning values to them.
 Sajilo supports all major data types like integers, floats, strings, and boolean values.
 
 #### Integers (अंक)
 To type cast from string to integers or floats to integer. Use the function `anka`
 >> For example
+
 ```
 a = padha("Enter one number: ")
 // a is casted from string to integer if possible.
@@ -121,9 +122,10 @@ We can declare true and false for boolean values. I didn't translate the type to
 a = true
 ```
 
-### 3. Conditionals 
+#### Conditionals 
 Sajilo supports basic comparison between values and varialbes with operators and conditions.
 Supported conditionals are 'YEDI', 'NAVAYE', 'NAVAYE YEDI'
+
 #### ```यदी / नभये ```
 
 ```
