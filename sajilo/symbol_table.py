@@ -61,3 +61,10 @@ class SymbolTable:
             raise DuplicateSymbol("Cannot redeclare vidhi(function) '%s'" % name)
 
         self.__table[self.__func][name] = val
+
+    # Builtin functions and methods for shell/global
+    def shell_scope_func(self, name, val):
+        if name in self.__table[self.__func]:
+            pass
+        else:
+            self.__table[self.__func][name] = val
