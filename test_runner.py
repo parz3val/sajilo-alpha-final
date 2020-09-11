@@ -17,7 +17,7 @@ def get_test_files():
 def mac_commands(python_version):
     commands = []
     for test_file_name in get_test_files():
-        command = python_version + " sajilo.py " + test_file_name
+        command = python_version + " sajiloc.py " + test_file_name
         commands.append(command)
     return commands
 
