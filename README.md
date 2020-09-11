@@ -51,6 +51,8 @@ Usage : ```python sajilo.py 'name of file'```
 :white_check_mark: Solve the lexing error with the joined key instances.
 
 :white_check_mark: Solved index out of range error in yacc file.
+:white_check_mark: Repl added and fixed issues with scope.
+:o: Build binary and installer for windows.
 
 >> For example :
 ```lekha "hello World"  is parsed correctly but,
